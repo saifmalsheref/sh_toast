@@ -1,6 +1,6 @@
 name: sh_toast
 description: "A Flutter package for displaying toast notifications on all platforms."
-version: 2.0.0
+version: 2.0.1
 homepage: https://procodersc.blogspot.com
 
 environment:

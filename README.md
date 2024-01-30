@@ -42,8 +42,8 @@ Now you can show a toast or Notifications:
 
 ## Notifications
 
-![Example Image](https://github.com/saifmalsheref/sh_toast/blob/master/example_images/sheet_Notification.png?raw=true)
-![Example Image](https://github.com/saifmalsheref/sh_toast/blob/master/example_images/top_Notification.png?raw=true)
+![Example Image](https://raw.githubusercontent.com/saifmalsheref/sh_toast/master/example_images/sheet_Notification.png)
+![Example Image](https://raw.githubusercontent.com/saifmalsheref/sh_toast/master/example_images/top_Notification.png)
 
   parameters:
 - `title`: The title widget of the notification. (Required)
