@@ -46,19 +46,13 @@ Now you can show a toast or Notifications:
 ![Example Image](https://github.com/saifmalsheref/sh_toast/blob/master/examples/top_Notification.png?raw=true)
 
   parameters:
-  /// - `title`: The title widget of the notification. (Required)
-  ///
-  /// - `content`: The content widget of the notification. (Optional)
-  ///
-  /// - `leading`: The leading widget of the notification. (Optional)
-  ///
-  /// - `showDismiss`: Flag to determine whether to display the dismiss button. (Default: true)
-  ///
-  /// - `toastOptions`: The options for customizing the appearance and behavior of the notification. (Default: NotificationOptions(borderRadius: 5, secondDuration: 4))
-  ///
-  /// - `dismissButton`: The custom dismiss button widget. (Default: DismissButton())
-  ///
-  /// - `onTap`: Callback function to be triggered when the notification is tapped. (Optional)
+- `title`: The title widget of the notification. (Required)
+- `content`: The content widget of the notification. (Optional)
+- `leading`: The leading widget of the notification. (Optional)
+- `showDismiss`: Flag to determine whether to display the dismiss button. (Default: true)
+- `toastOptions`: The options for customizing the appearance and behavior of the notification. (Default: NotificationOptions(borderRadius: 5, secondDuration: 4))
+- `dismissButton`: The custom dismiss button widget. (Default: DismissButton())
+- `onTap`: Callback function to be triggered when the notification is tapped. (Optional)
 
 ```dart
 ShToast.showNotification(
@@ -79,21 +73,14 @@ onTap: () {
 ## Toast
 
   parameters:
-  /// - `message`: The message to be displayed in the toast. (Required)
-  ///
-  /// - `toastPostion`: The position where the toast should be shown. (Required)
-  ///
-  /// - `ToastColor`: The background color of the toast. (Default: Colors.black)
-  ///
-  /// - `msgStyle`: The text style for the message. (Optional)
-  ///
-  /// - `borderRadius`: The border radius of the toast. (Default: 10)
-  ///
-  /// - `ToastPadding`: The padding for the toast. (Default: EdgeInsets.symmetric(horizontal: 5, vertical: 3))
-  ///
-  /// - `ToastDuration`: The duration for which the toast should be visible. (Default: Duration(seconds: 2))
-  ///
-  /// - `onTap`: Callback function to be triggered when the toast is tapped. (Optional)
+ - `message`: The message to be displayed in the toast. (Required)
+ - `toastPostion`: The position where the toast should be shown. (Required)
+ - `ToastColor`: The background color of the toast. (Default: Colors.black)
+ - `msgStyle`: The text style for the message. (Optional)
+ - `borderRadius`: The border radius of the toast. (Default: 10)
+ - `ToastPadding`: The padding for the toast. (Default: EdgeInsets.symmetric(horizontal: 5, vertical: 3))
+ - `ToastDuration`: The duration for which the toast should be visible. (Default: Duration(seconds: 2))
+- `onTap`: Callback function to be triggered when the toast is tapped. (Optional)
 
 ```dart
 
